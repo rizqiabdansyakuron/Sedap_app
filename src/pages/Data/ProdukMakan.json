@@ -1,0 +1,90 @@
+[
+  {
+    "kode_produk": "PRD001",
+    "title": "Spicy Ramen Bowl",
+    "src": "https://i.pinimg.com/736x/06/5b/c0/065bc08b0c2ca743b42b37417410706a.jpg",
+    "size": "Large",
+    "ingredients": "Noodles, Egg, Pork, Chili",
+    "type": "Noodle Dish",
+    "price": "$12",
+    "rating": 4.8,
+    "highlight": true
+  },
+  {
+    "kode_produk": "PRD002",
+    "title": "Classic Cheeseburger",
+    "src": "https://i.pinimg.com/736x/9f/43/6c/9f436cae7327fedb7375eb66f9b1c7c2.jpg",
+    "size": "Regular",
+    "ingredients": "Beef, Cheese, Lettuce, Tomato",
+    "type": "Burger",
+    "price": "$10",
+    "rating": 4.6,
+    "highlight": false
+  },
+  {
+    "kode_produk": "PRD003",
+    "title": "Sushi Platter Deluxe",
+    "src": "https://i.pinimg.com/736x/4a/da/26/4ada263b077cb978c84b7725c7bb63ce.jpg",
+    "size": "Regular",
+    "ingredients": "Chicken, Teriyaki Sauce, Rice, Salad",
+    "type": "Japanese",
+    "price": "$18",
+    "rating": 4.9,
+    "highlight": false
+  },
+  {
+    "kode_produk": "PRD004",
+    "title": "Margherita Pizza",
+    "src": "https://i.pinimg.com/736x/d9/db/94/d9db947145fb931a2bd2b0dc46b59ac0.jpg",
+    "size": "Large",
+    "ingredients": "Tomato, Mozzarella, Basil",
+    "type": "Pizza",
+    "price": "$15",
+    "rating": 4.7,
+    "highlight": true
+  },
+  {
+    "kode_produk": "PRD005",
+    "title": "Chicken Caesar Salad",
+    "src": "https://i.pinimg.com/736x/1a/91/3f/1a913f0f6b733f846cf4b259aa43c4b4.jpg",
+    "size": "Medium",
+    "ingredients": "Chicken, Lettuce, Croutons, Parmesan",
+    "type": "Salad",
+    "price": "$9",
+    "rating": 4.5,
+    "highlight": false
+  },
+  {
+    "kode_produk": "PRD006",
+    "title": "Beef Udon Soup",
+    "src": "https://i.pinimg.com/736x/0c/5f/9b/0c5f9b5e34b666b48de9538077969f87.jpg",
+    "size": "Medium",
+    "ingredients": "Udon, Beef, Broth, Scallions",
+    "type": "Noodle Dish",
+    "price": "$11",
+    "rating": 4.7,
+    "highlight": false
+  },
+  {
+    "kode_produk": "PRD007",
+    "title": "Grilled Chicken Wrap",
+    "src": "https://i.pinimg.com/736x/c2/13/9f/c2139f37bb6d16554a4ac5de38932c5e.jpg",
+    "size": "Regular",
+    "ingredients": "Chicken, Tortilla, Lettuce, Sauce",
+    "type": "Wrap",
+    "price": "$8",
+    "rating": 4.4,
+    "highlight": false
+  },
+  {
+    "kode_produk": "PRD008",
+    "title": "Tropical Fruit Smoothie",
+    "src": "https://i.pinimg.com/736x/e0/f3/55/e0f3558fc3b0843ee6a8d23ae2ce7644.jpg",
+    "size": "Medium",
+    "ingredients": "Mango, Pineapple, Banana, Yogurt",
+    "type": "Drink",
+    "price": "$6",
+    "rating": 4.9,
+    "highlight": true
+  }
+]
