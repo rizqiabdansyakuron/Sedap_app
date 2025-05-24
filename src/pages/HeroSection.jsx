@@ -8,6 +8,7 @@ export default function HeroSection() {
   return (
     <div className="bg-[#f5fcff]">
       {/* Navbar */}
+      <h1>INI ADALAH TEST </h1>
       <nav className="flex flex-col lg:flex-row lg:items-center justify-between px-8 lg:px-20 py-6 bg-[#f5fcff]">
   <div id="sidebar-logo" className="mb-4 lg:mb-0">
     <span
