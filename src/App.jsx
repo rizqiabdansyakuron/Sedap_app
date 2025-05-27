@@ -17,9 +17,11 @@ import ProdukUnggulan from "./pages/ProdukUnggulan";
 import HeroSection from "./pages/Herosection";
 import PopularDestination from "./pages/PopularProduct";
 import CekStokProduk from "./pages/CekStokProduk";
-
+import Products from "./pages/Products";
+import ProductDetail from "./pages/ProductDetail";
 
 function App() {
+  
   return (
     <Suspense fallback={<Loading />}>
       <Routes>
@@ -28,7 +30,8 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/customer" element={<Customer />} />
           <Route path="/user" element={<User />} />
-          
+          <Route path="products" element={<Products />} />
+          <Route path="/products/:id" element={<ProductDetail />} /> 
         </Route>
 
         <Route path="/cek" element={<CekStokProduk />} />

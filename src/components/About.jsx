@@ -78,7 +78,7 @@ export default function About() {
               </p>
               <a
                 href="about.html"
-                className="inline-block bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-all duration-200"
+                className="inline-block bg-hijau text-white px-6 py-3 rounded-lg "
               >
                 Discover More
               </a>

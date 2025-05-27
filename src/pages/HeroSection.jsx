@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <div className="bg-[#f5fcff]">
       {/* Navbar */}
-      <h1>INI ADALAH TEST </h1>
+      
       <nav className="flex flex-col lg:flex-row lg:items-center justify-between px-8 lg:px-20 py-6 bg-[#f5fcff]">
   <div id="sidebar-logo" className="mb-4 lg:mb-0">
     <span
@@ -43,7 +43,7 @@ export default function HeroSection() {
       Discover a culinary journey like no other. Fresh ingredients, traditional recipes,
       and an experience worth remembering.
     </p>
-    <button className="bg-red-500 text-white px-8 py-4 text-lg md:text-xl rounded-full font-muli font-semibold hover:bg-red-600 transition duration-300">
+    <button className="bg-hijau text-white px-8 py-4 text-lg md:text-xl rounded-full font-muli font-semibold hover:bg-red-600 transition duration-300">
       Book Now
     </button>
   </div>

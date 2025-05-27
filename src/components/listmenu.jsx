@@ -5,9 +5,12 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { BsBorderStyle } from "react-icons/bs";
 import { AiFillHome } from "react-icons/ai";
 import { FaUserFriends } from "react-icons/fa"; // Tambahkan icon user
+import { MdFastfood } from "react-icons/md"; // Import MdFastfood for Products
 import { Link } from "react-router-dom";  
 
 export default function ListMenu() {
+  const menuClass = "hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold";
+
   return (
     <div id="sidebar-menu" className="mt-10">
       <ul id="menu-list" className="space-y-3">
@@ -15,7 +18,7 @@ export default function ListMenu() {
           <Link
             id="menu-1"
             to="/"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <AiFillHome className="mr-2" />
             Dashboard
@@ -25,7 +28,7 @@ export default function ListMenu() {
           <Link
             id="menu-2"
             to="/orders"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <BsBorderStyle className="mr-2" />
             Orders
@@ -35,7 +38,7 @@ export default function ListMenu() {
           <Link
             id="menu-3"
             to="/customers"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <BsFillPersonCheckFill className="mr-2" />
             Customers
@@ -45,7 +48,7 @@ export default function ListMenu() {
           <Link
             id="menu-4"
             to="/user"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <FaUserFriends className="mr-2" />
             Users
@@ -55,7 +58,7 @@ export default function ListMenu() {
           <Link
             id="menu-5"
             to="/ErrorPage"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <BiErrorCircle className="mr-2" />
             Error Page 404
@@ -64,18 +67,18 @@ export default function ListMenu() {
         <li>
           <Link
             id="menu-6"
-            to="/ProdukUnggulan"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            to="/products"
+            className={menuClass}
           >
-            <AiFillShopping  className="mr-2" />
-            Produk unggulan
+            <MdFastfood className="mr-4 text-xl" />
+            Products
           </Link>
         </li>
         <li>
           <Link
             id="menu-7"
             to="/Home"
-            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+            className={menuClass}
           >
             <AiOutlineHome className="mr-2" />
             Home
