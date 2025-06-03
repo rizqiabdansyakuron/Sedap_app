@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Spicy Ramen Bowl",
+    "img":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//102/MTA-83270675/brd-44261_soft-case-apple-iphone-13-13-mini-silikon-candy-macaron-bludru_full16.jpg",
+    "size": "Large",
+    "ingredients": "Noodles, Egg, Pork, Chili",
+    "type": "Noodle Dish",
+    "price": "$12"
+  },
+  {
+    "title": "Classic Cheeseburger",
+    "img":"https://i.pinimg.com/736x/9f/43/6c/9f436cae7327fedb7375eb66f9b1c7c2.jpg",
+    "size": "Regular",
+    "ingredients": "Beef, Cheese, Lettuce, Tomato",
+    "type": "Burger",
+    "price": "$10"
+  },
+  {
+    "title": "Sushi Platter Deluxe",
+    "image": "/images/food/sushi.jpg",
+    "size": "12 pcs",
+    "ingredients": "Salmon, Tuna, Rice, Seaweed",
+    "type": "Japanese",
+    "price": "$18"
+  },
+  {
+    "title": "Margherita Pizza",
+    "img":"https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//102/MTA-83270675/brd-44261_soft-case-apple-iphone-13-13-mini-silikon-candy-macaron-bludru_full16.jpg",
+    "size": "12 inch",
+    "ingredients": "Tomato, Mozzarella, Basil",
+    "type": "Pizza",
+    "price": "$15"
+  },
+  {
+    "title": "Chicken Caesar Salad",
+    "image": "/images/food/salad.jpg",
+    "size": "Medium",
+    "ingredients": "Chicken, Lettuce, Croutons, Parmesan",
+    "type": "Salad",
+    "price": "$9"
+  }
+]
