@@ -85,7 +85,7 @@ export default function Notes() {
 
       if (isEditMode && editingId !== null) {
         await notesAPI.updateNote(editingId, dataForm);
-        setSuccess("Catatan berhasil diperbarui!");
+        setSuccess("Catatan berhasil diperbaruii!");
       } else {
         await notesAPI.createNote(dataForm);
         setSuccess("Catatan berhasil ditambahkan!");
